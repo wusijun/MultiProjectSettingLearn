@@ -21,5 +21,9 @@
     // Do any additional setup after loading the view.
 }
 
+- (void)testApi {
+    NSLog(@"我是在teacher工程里面");
+}
+
 
 @end

@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import <TeacherFrameWork/TETestAPI.h>
+#import <StudentFramework/StudentView.h>
 @interface ViewController ()
 
 @end
@@ -16,6 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    TETestAPI *api = [[TETestAPI alloc] init];
+    [api testApi];
+    
+    StudentView *view = [[StudentView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    view.backgroundColor = [UIColor redColor];
+    [view showInSuperView:self.view];
     // Do any additional setup after loading the view.
 }
 

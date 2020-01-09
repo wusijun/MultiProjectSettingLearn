@@ -1,16 +1,17 @@
 //
-//  ViewController.h
+//  TETestAPI.m
 //  TeacherProject
 //
 //  Created by 吴四军 on 2020/1/9.
 //  Copyright © 2020 sj. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "TETestAPI.h"
 
-@interface ViewController : UIViewController
+@implementation TETestAPI
 
-- (void)testApi;
+- (void)testApi {
+    NSLog(@"测试API");
+}
 
 @end
-

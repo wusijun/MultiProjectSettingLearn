@@ -16,6 +16,14 @@
 		23B84FEA23C729F500EA8FB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B84FE923C729F500EA8FB4 /* main.m */; };
 		23B84FF423C729F600EA8FB4 /* TeacherProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B84FF323C729F600EA8FB4 /* TeacherProjectTests.m */; };
 		23B84FFF23C729F600EA8FB4 /* TeacherProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B84FFE23C729F600EA8FB4 /* TeacherProjectUITests.m */; };
+		23B8502C23C72C7600EA8FB4 /* TeacherFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B8502323C72C7500EA8FB4 /* TeacherFrameWork.framework */; };
+		23B8503323C72C7600EA8FB4 /* TeacherFrameWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B8503223C72C7600EA8FB4 /* TeacherFrameWorkTests.m */; };
+		23B8503523C72C7600EA8FB4 /* TeacherFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B8502523C72C7500EA8FB4 /* TeacherFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B8503823C72C7600EA8FB4 /* TeacherFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B8502323C72C7500EA8FB4 /* TeacherFrameWork.framework */; };
+		23B8503923C72C7600EA8FB4 /* TeacherFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23B8502323C72C7500EA8FB4 /* TeacherFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23B8505123C72DB600EA8FB4 /* TETestAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B8504F23C72DB600EA8FB4 /* TETestAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B8505223C72DB600EA8FB4 /* TETestAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B8505023C72DB600EA8FB4 /* TETestAPI.m */; };
+		23B8505323C72DB600EA8FB4 /* TETestAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B8505023C72DB600EA8FB4 /* TETestAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +41,42 @@
 			remoteGlobalIDString = 23B84FD323C729F500EA8FB4;
 			remoteInfo = TeacherProject;
 		};
+		23B8502D23C72C7600EA8FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23B84FCC23C729F500EA8FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23B8502223C72C7500EA8FB4;
+			remoteInfo = TeacherFrameWork;
+		};
+		23B8502F23C72C7600EA8FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23B84FCC23C729F500EA8FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23B84FD323C729F500EA8FB4;
+			remoteInfo = TeacherProject;
+		};
+		23B8503623C72C7600EA8FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23B84FCC23C729F500EA8FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23B8502223C72C7500EA8FB4;
+			remoteInfo = TeacherFrameWork;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		23B8503A23C72C7600EA8FB4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				23B8503923C72C7600EA8FB4 /* TeacherFrameWork.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		23B84FD423C729F500EA8FB4 /* TeacherProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeacherProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +97,14 @@
 		23B84FFA23C729F600EA8FB4 /* TeacherProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeacherProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B84FFE23C729F600EA8FB4 /* TeacherProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeacherProjectUITests.m; sourceTree = "<group>"; };
 		23B8500023C729F600EA8FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B8502323C72C7500EA8FB4 /* TeacherFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TeacherFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B8502523C72C7500EA8FB4 /* TeacherFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeacherFrameWork.h; sourceTree = "<group>"; };
+		23B8502623C72C7500EA8FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B8502B23C72C7600EA8FB4 /* TeacherFrameWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeacherFrameWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B8503223C72C7600EA8FB4 /* TeacherFrameWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeacherFrameWorkTests.m; sourceTree = "<group>"; };
+		23B8503423C72C7600EA8FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B8504F23C72DB600EA8FB4 /* TETestAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TETestAPI.h; sourceTree = "<group>"; };
+		23B8505023C72DB600EA8FB4 /* TETestAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TETestAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B8503823C72C7600EA8FB4 /* TeacherFrameWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +130,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		23B8502023C72C7500EA8FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23B8502823C72C7600EA8FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B8502C23C72C7600EA8FB4 /* TeacherFrameWork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,6 +154,8 @@
 				23B84FD623C729F500EA8FB4 /* TeacherProject */,
 				23B84FF223C729F600EA8FB4 /* TeacherProjectTests */,
 				23B84FFD23C729F600EA8FB4 /* TeacherProjectUITests */,
+				23B8502423C72C7500EA8FB4 /* TeacherFrameWork */,
+				23B8503123C72C7600EA8FB4 /* TeacherFrameWorkTests */,
 				23B84FD523C729F500EA8FB4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +166,8 @@
 				23B84FD423C729F500EA8FB4 /* TeacherProject.app */,
 				23B84FEF23C729F600EA8FB4 /* TeacherProjectTests.xctest */,
 				23B84FFA23C729F600EA8FB4 /* TeacherProjectUITests.xctest */,
+				23B8502323C72C7500EA8FB4 /* TeacherFrameWork.framework */,
+				23B8502B23C72C7600EA8FB4 /* TeacherFrameWorkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +186,8 @@
 				23B84FE523C729F500EA8FB4 /* LaunchScreen.storyboard */,
 				23B84FE823C729F500EA8FB4 /* Info.plist */,
 				23B84FE923C729F500EA8FB4 /* main.m */,
+				23B8504F23C72DB600EA8FB4 /* TETestAPI.h */,
+				23B8505023C72DB600EA8FB4 /* TETestAPI.m */,
 			);
 			path = TeacherProject;
 			sourceTree = "<group>";
@@ -137,7 +210,37 @@
 			path = TeacherProjectUITests;
 			sourceTree = "<group>";
 		};
+		23B8502423C72C7500EA8FB4 /* TeacherFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				23B8502523C72C7500EA8FB4 /* TeacherFrameWork.h */,
+				23B8502623C72C7500EA8FB4 /* Info.plist */,
+			);
+			path = TeacherFrameWork;
+			sourceTree = "<group>";
+		};
+		23B8503123C72C7600EA8FB4 /* TeacherFrameWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				23B8503223C72C7600EA8FB4 /* TeacherFrameWorkTests.m */,
+				23B8503423C72C7600EA8FB4 /* Info.plist */,
+			);
+			path = TeacherFrameWorkTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23B8501E23C72C7500EA8FB4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B8503523C72C7600EA8FB4 /* TeacherFrameWork.h in Headers */,
+				23B8505123C72DB600EA8FB4 /* TETestAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		23B84FD323C729F500EA8FB4 /* TeacherProject */ = {
@@ -147,10 +250,12 @@
 				23B84FD023C729F500EA8FB4 /* Sources */,
 				23B84FD123C729F500EA8FB4 /* Frameworks */,
 				23B84FD223C729F500EA8FB4 /* Resources */,
+				23B8503A23C72C7600EA8FB4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				23B8503723C72C7600EA8FB4 /* PBXTargetDependency */,
 			);
 			name = TeacherProject;
 			productName = TeacherProject;
@@ -193,6 +298,43 @@
 			productReference = 23B84FFA23C729F600EA8FB4 /* TeacherProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		23B8502223C72C7500EA8FB4 /* TeacherFrameWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B8503F23C72C7600EA8FB4 /* Build configuration list for PBXNativeTarget "TeacherFrameWork" */;
+			buildPhases = (
+				23B8501E23C72C7500EA8FB4 /* Headers */,
+				23B8501F23C72C7500EA8FB4 /* Sources */,
+				23B8502023C72C7500EA8FB4 /* Frameworks */,
+				23B8502123C72C7500EA8FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeacherFrameWork;
+			productName = TeacherFrameWork;
+			productReference = 23B8502323C72C7500EA8FB4 /* TeacherFrameWork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		23B8502A23C72C7600EA8FB4 /* TeacherFrameWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B8504023C72C7600EA8FB4 /* Build configuration list for PBXNativeTarget "TeacherFrameWorkTests" */;
+			buildPhases = (
+				23B8502723C72C7600EA8FB4 /* Sources */,
+				23B8502823C72C7600EA8FB4 /* Frameworks */,
+				23B8502923C72C7600EA8FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23B8502E23C72C7600EA8FB4 /* PBXTargetDependency */,
+				23B8503023C72C7600EA8FB4 /* PBXTargetDependency */,
+			);
+			name = TeacherFrameWorkTests;
+			productName = TeacherFrameWorkTests;
+			productReference = 23B8502B23C72C7600EA8FB4 /* TeacherFrameWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,6 +352,13 @@
 						TestTargetID = 23B84FD323C729F500EA8FB4;
 					};
 					23B84FF923C729F600EA8FB4 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 23B84FD323C729F500EA8FB4;
+					};
+					23B8502223C72C7500EA8FB4 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					23B8502A23C72C7600EA8FB4 = {
 						CreatedOnToolsVersion = 11.3;
 						TestTargetID = 23B84FD323C729F500EA8FB4;
 					};
@@ -231,6 +380,8 @@
 				23B84FD323C729F500EA8FB4 /* TeacherProject */,
 				23B84FEE23C729F600EA8FB4 /* TeacherProjectTests */,
 				23B84FF923C729F600EA8FB4 /* TeacherProjectUITests */,
+				23B8502223C72C7500EA8FB4 /* TeacherFrameWork */,
+				23B8502A23C72C7600EA8FB4 /* TeacherFrameWorkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,6 +411,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		23B8502123C72C7500EA8FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23B8502923C72C7600EA8FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -269,6 +434,7 @@
 			files = (
 				23B84FDF23C729F500EA8FB4 /* ViewController.m in Sources */,
 				23B84FD923C729F500EA8FB4 /* AppDelegate.m in Sources */,
+				23B8505223C72DB600EA8FB4 /* TETestAPI.m in Sources */,
 				23B84FEA23C729F500EA8FB4 /* main.m in Sources */,
 				23B84FDC23C729F500EA8FB4 /* SceneDelegate.m in Sources */,
 			);
@@ -290,6 +456,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		23B8501F23C72C7500EA8FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B8505323C72DB600EA8FB4 /* TETestAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23B8502723C72C7600EA8FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B8503323C72C7600EA8FB4 /* TeacherFrameWorkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -302,6 +484,21 @@
 			isa = PBXTargetDependency;
 			target = 23B84FD323C729F500EA8FB4 /* TeacherProject */;
 			targetProxy = 23B84FFB23C729F600EA8FB4 /* PBXContainerItemProxy */;
+		};
+		23B8502E23C72C7600EA8FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23B8502223C72C7500EA8FB4 /* TeacherFrameWork */;
+			targetProxy = 23B8502D23C72C7600EA8FB4 /* PBXContainerItemProxy */;
+		};
+		23B8503023C72C7600EA8FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23B84FD323C729F500EA8FB4 /* TeacherProject */;
+			targetProxy = 23B8502F23C72C7600EA8FB4 /* PBXContainerItemProxy */;
+		};
+		23B8503723C72C7600EA8FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23B8502223C72C7500EA8FB4 /* TeacherFrameWork */;
+			targetProxy = 23B8503623C72C7600EA8FB4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -545,6 +742,94 @@
 			};
 			name = Release;
 		};
+		23B8503B23C72C7600EA8FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8S25DFPZ4T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TeacherFrameWork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sj.net.TeacherFrameWork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23B8503C23C72C7600EA8FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8S25DFPZ4T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TeacherFrameWork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sj.net.TeacherFrameWork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23B8503D23C72C7600EA8FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S25DFPZ4T;
+				INFOPLIST_FILE = TeacherFrameWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sj.net.TeacherFrameWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeacherProject.app/TeacherProject";
+			};
+			name = Debug;
+		};
+		23B8503E23C72C7600EA8FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S25DFPZ4T;
+				INFOPLIST_FILE = TeacherFrameWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sj.net.TeacherFrameWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeacherProject.app/TeacherProject";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -580,6 +865,24 @@
 			buildConfigurations = (
 				23B8500A23C729F600EA8FB4 /* Debug */,
 				23B8500B23C729F600EA8FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23B8503F23C72C7600EA8FB4 /* Build configuration list for PBXNativeTarget "TeacherFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B8503B23C72C7600EA8FB4 /* Debug */,
+				23B8503C23C72C7600EA8FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23B8504023C72C7600EA8FB4 /* Build configuration list for PBXNativeTarget "TeacherFrameWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B8503D23C72C7600EA8FB4 /* Debug */,
+				23B8503E23C72C7600EA8FB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

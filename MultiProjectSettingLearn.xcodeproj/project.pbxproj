@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,8 @@
 		23B84F5C23C7296600EA8FB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B84F5B23C7296600EA8FB4 /* main.m */; };
 		23B84F6623C7296600EA8FB4 /* MultiProjectSettingLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B84F6523C7296600EA8FB4 /* MultiProjectSettingLearnTests.m */; };
 		23B84F7123C7296600EA8FB4 /* MultiProjectSettingLearnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B84F7023C7296600EA8FB4 /* MultiProjectSettingLearnUITests.m */; };
+		23B8504A23C72C9C00EA8FB4 /* TeacherFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B8504723C72C9C00EA8FB4 /* TeacherFrameWork.framework */; };
+		23B8506D23C7305100EA8FB4 /* StudentFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B8506C23C7305100EA8FB4 /* StudentFramework.framework */; };
 		30BCC518AA9F5C4F686F47C2 /* Pods_MultiProjectSettingLearnTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C527378B0B113EABB72AC5 /* Pods_MultiProjectSettingLearnTests.framework */; };
 		4AF8B85E9D509A562F484C52 /* Pods_MultiProjectSettingLearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244C616E41FF2756A6257B64 /* Pods_MultiProjectSettingLearn.framework */; };
 		B8D281234B98A8587FB3BB85 /* Pods_MultiProjectSettingLearn_MultiProjectSettingLearnUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7947C049AFBFD60D4F12DFBB /* Pods_MultiProjectSettingLearn_MultiProjectSettingLearnUITests.framework */; };
@@ -78,6 +80,27 @@
 			remoteGlobalIDString = 23B84FFA23C729F600EA8FB4;
 			remoteInfo = TeacherProjectUITests;
 		};
+		23B8504623C72C9C00EA8FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23B8500C23C729F600EA8FB4 /* TeacherProject.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 23B8502323C72C7500EA8FB4;
+			remoteInfo = TeacherFrameWork;
+		};
+		23B8504823C72C9C00EA8FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23B8500C23C729F600EA8FB4 /* TeacherProject.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 23B8502B23C72C7600EA8FB4;
+			remoteInfo = TeacherFrameWorkTests;
+		};
+		23B8506B23C7305100EA8FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23B84FBF23C729B900EA8FB4 /* StudentProject.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 23B8505923C72F7D00EA8FB4;
+			remoteInfo = StudentFramework;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -117,6 +140,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B8506D23C7305100EA8FB4 /* StudentFramework.framework in Frameworks */,
+				23B8504A23C72C9C00EA8FB4 /* TeacherFrameWork.framework in Frameworks */,
 				4AF8B85E9D509A562F484C52 /* Pods_MultiProjectSettingLearn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +241,7 @@
 				23B84FC623C729BA00EA8FB4 /* StudentProject.app */,
 				23B84FC823C729BA00EA8FB4 /* StudentProjectTests.xctest */,
 				23B84FCA23C729BA00EA8FB4 /* StudentProjectUITests.xctest */,
+				23B8506C23C7305100EA8FB4 /* StudentFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -226,6 +252,8 @@
 				23B8501323C729F700EA8FB4 /* TeacherProject.app */,
 				23B8501523C729F700EA8FB4 /* TeacherProjectTests.xctest */,
 				23B8501723C729F700EA8FB4 /* TeacherProjectUITests.xctest */,
+				23B8504723C72C9C00EA8FB4 /* TeacherFrameWork.framework */,
+				23B8504923C72C9C00EA8FB4 /* TeacherFrameWorkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,7 +268,6 @@
 				FFE7DF74520C5E0EECBFFA7C /* Pods-MultiProjectSettingLearnTests.debug.xcconfig */,
 				5335608CF7B4914B07CF2547 /* Pods-MultiProjectSettingLearnTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -398,6 +425,27 @@
 			fileType = wrapper.cfbundle;
 			path = TeacherProjectUITests.xctest;
 			remoteRef = 23B8501623C729F700EA8FB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23B8504723C72C9C00EA8FB4 /* TeacherFrameWork.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TeacherFrameWork.framework;
+			remoteRef = 23B8504623C72C9C00EA8FB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23B8504923C72C9C00EA8FB4 /* TeacherFrameWorkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TeacherFrameWorkTests.xctest;
+			remoteRef = 23B8504823C72C9C00EA8FB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23B8506C23C7305100EA8FB4 /* StudentFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = StudentFramework.framework;
+			remoteRef = 23B8506B23C7305100EA8FB4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
