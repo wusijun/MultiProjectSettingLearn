@@ -22,6 +22,8 @@
 		23B8506823C72FB700EA8FB4 /* StudentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B8506723C72FB700EA8FB4 /* StudentView.m */; };
 		23B8506923C72FBC00EA8FB4 /* StudentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B8506623C72FB700EA8FB4 /* StudentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23B8506E23C731C000EA8FB4 /* StudentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B8506723C72FB700EA8FB4 /* StudentView.m */; };
+		23B8507D23C735EF00EA8FB4 /* Student.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23B8507C23C735EF00EA8FB4 /* Student.xcconfig */; };
+		23B8507E23C735EF00EA8FB4 /* Student.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 23B8507C23C735EF00EA8FB4 /* Student.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +88,7 @@
 		23B8505C23C72F7D00EA8FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23B8506623C72FB700EA8FB4 /* StudentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentView.h; sourceTree = "<group>"; };
 		23B8506723C72FB700EA8FB4 /* StudentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentView.m; sourceTree = "<group>"; };
+		23B8507C23C735EF00EA8FB4 /* Student.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Student.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,7 @@
 		23B84F7E23C729B800EA8FB4 = {
 			isa = PBXGroup;
 			children = (
+				23B8507C23C735EF00EA8FB4 /* Student.xcconfig */,
 				23B84F8923C729B800EA8FB4 /* StudentProject */,
 				23B84FA523C729B900EA8FB4 /* StudentProjectTests */,
 				23B84FB023C729B900EA8FB4 /* StudentProjectUITests */,
@@ -331,6 +335,7 @@
 			files = (
 				23B84F9A23C729B900EA8FB4 /* LaunchScreen.storyboard in Resources */,
 				23B84F9723C729B900EA8FB4 /* Assets.xcassets in Resources */,
+				23B8507D23C735EF00EA8FB4 /* Student.xcconfig in Resources */,
 				23B84F9523C729B800EA8FB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +358,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B8507E23C735EF00EA8FB4 /* Student.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
