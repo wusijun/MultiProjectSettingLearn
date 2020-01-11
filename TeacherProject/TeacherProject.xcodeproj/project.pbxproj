@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2341D0C923C9D59000B0A992 /* Teacher.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2341D0C823C9D59000B0A992 /* Teacher.xcconfig */; };
 		23B84FD923C729F500EA8FB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B84FD823C729F500EA8FB4 /* AppDelegate.m */; };
 		23B84FDC23C729F500EA8FB4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B84FDB23C729F500EA8FB4 /* SceneDelegate.m */; };
 		23B84FDF23C729F500EA8FB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B84FDE23C729F500EA8FB4 /* ViewController.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2341D0C823C9D59000B0A992 /* Teacher.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Teacher.xcconfig; sourceTree = "<group>"; };
 		23B84FD423C729F500EA8FB4 /* TeacherProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeacherProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B84FD723C729F500EA8FB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		23B84FD823C729F500EA8FB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		23B84FCB23C729F500EA8FB4 = {
 			isa = PBXGroup;
 			children = (
+				2341D0C823C9D59000B0A992 /* Teacher.xcconfig */,
 				23B84FD623C729F500EA8FB4 /* TeacherProject */,
 				23B84FF223C729F600EA8FB4 /* TeacherProjectTests */,
 				23B84FFD23C729F600EA8FB4 /* TeacherProjectUITests */,
@@ -243,6 +246,7 @@
 				23B84FE723C729F500EA8FB4 /* LaunchScreen.storyboard in Resources */,
 				23B84FE423C729F500EA8FB4 /* Assets.xcassets in Resources */,
 				23B84FE223C729F500EA8FB4 /* Main.storyboard in Resources */,
+				2341D0C923C9D59000B0A992 /* Teacher.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +441,7 @@
 		};
 		23B8500423C729F600EA8FB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2341D0C823C9D59000B0A992 /* Teacher.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +459,7 @@
 		};
 		23B8500523C729F600EA8FB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2341D0C823C9D59000B0A992 /* Teacher.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <AFNetworking/AFNetworking.h>
 
 @interface ViewController ()
 
@@ -16,6 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    /// 这里可以直接使用pods里面的AFNetwork
+    NSString *url = @"";
+    AFHTTPSessionManager *network = [AFHTTPSessionManager manager];
+    
+    
     
     self.view.backgroundColor = [UIColor redColor];
     // Do any additional setup after loading the view.
