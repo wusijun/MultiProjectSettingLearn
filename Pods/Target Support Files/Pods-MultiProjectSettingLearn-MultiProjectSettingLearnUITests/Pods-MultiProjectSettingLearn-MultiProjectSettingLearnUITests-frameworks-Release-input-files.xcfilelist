@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-MultiProjectSettingLearn-MultiProjectSettingLearnUITests/Pods-MultiProjectSettingLearn-MultiProjectSettingLearnUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework

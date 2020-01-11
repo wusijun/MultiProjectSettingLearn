@@ -8,6 +8,7 @@ target 'MultiProjectSettingLearn' do
 
   # Pods for MultiProjectSettingLearn
   pod 'AFNetworking', '~> 3.0'
+  pod 'SDWebImage', '~> 5.0'
 
   target 'MultiProjectSettingLearnTests' do
     inherit! :search_paths
