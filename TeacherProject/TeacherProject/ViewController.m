@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <AFNetworking/AFNetworking.h>
+#import <SDWebImage/SDWebImage.h>
 
 
 @interface ViewController ()

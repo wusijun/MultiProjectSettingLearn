@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2341D0C923C9D59000B0A992 /* Teacher.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2341D0C823C9D59000B0A992 /* Teacher.xcconfig */; };
+		23564E6B23CC22C5007C2B76 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23564E6A23CC22C5007C2B76 /* AFNetworking.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		23564E6D23CC22C5007C2B76 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23564E6C23CC22C5007C2B76 /* SDWebImage.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		23B84FD923C729F500EA8FB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B84FD823C729F500EA8FB4 /* AppDelegate.m */; };
 		23B84FDC23C729F500EA8FB4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B84FDB23C729F500EA8FB4 /* SceneDelegate.m */; };
 		23B84FDF23C729F500EA8FB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B84FDE23C729F500EA8FB4 /* ViewController.m */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		2341D0C823C9D59000B0A992 /* Teacher.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Teacher.xcconfig; sourceTree = "<group>"; };
+		23564E6A23CC22C5007C2B76 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23564E6C23CC22C5007C2B76 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B84FD423C729F500EA8FB4 /* TeacherProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeacherProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B84FD723C729F500EA8FB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		23B84FD823C729F500EA8FB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23564E6B23CC22C5007C2B76 /* AFNetworking.framework in Frameworks */,
+				23564E6D23CC22C5007C2B76 /* SDWebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23564E6923CC22C5007C2B76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23564E6A23CC22C5007C2B76 /* AFNetworking.framework */,
+				23564E6C23CC22C5007C2B76 /* SDWebImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		23B84FCB23C729F500EA8FB4 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +106,7 @@
 				23B84FF223C729F600EA8FB4 /* TeacherProjectTests */,
 				23B84FFD23C729F600EA8FB4 /* TeacherProjectUITests */,
 				23B84FD523C729F500EA8FB4 /* Products */,
+				23564E6923CC22C5007C2B76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
