@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9143251A-8927-4C73-9064-0A82DDAF8A42"
+            uuid = "28F5EB75-DE8D-4976-BC5A-8B8FD139FE39"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TeacherProject/TeacherProject/AppDelegate.m"
+            filePath = "MultiProjectSettingLearn/ViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "-application:didFinishLaunchingWithOptions:"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "-lookupFile"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

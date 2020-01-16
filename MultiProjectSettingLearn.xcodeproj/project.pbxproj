@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23564E7023CC3ABB007C2B76 /* AmIBeingDebugged.m in Sources */ = {isa = PBXBuildFile; fileRef = 23564E6F23CC3ABB007C2B76 /* AmIBeingDebugged.m */; };
 		23B84F4B23C7296400EA8FB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B84F4A23C7296400EA8FB4 /* AppDelegate.m */; };
 		23B84F4E23C7296400EA8FB4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B84F4D23C7296400EA8FB4 /* SceneDelegate.m */; };
 		23B84F5123C7296400EA8FB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B84F5023C7296400EA8FB4 /* ViewController.m */; };
@@ -81,6 +82,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23564E6E23CC3ABB007C2B76 /* AmIBeingDebugged.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmIBeingDebugged.h; sourceTree = "<group>"; };
+		23564E6F23CC3ABB007C2B76 /* AmIBeingDebugged.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmIBeingDebugged.m; sourceTree = "<group>"; };
 		23B84F4623C7296400EA8FB4 /* MultiProjectSettingLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiProjectSettingLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B84F4923C7296400EA8FB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		23B84F4A23C7296400EA8FB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -188,6 +191,8 @@
 				23B84F5723C7296600EA8FB4 /* LaunchScreen.storyboard */,
 				23B84F5A23C7296600EA8FB4 /* Info.plist */,
 				23B84F5B23C7296600EA8FB4 /* main.m */,
+				23564E6E23CC3ABB007C2B76 /* AmIBeingDebugged.h */,
+				23564E6F23CC3ABB007C2B76 /* AmIBeingDebugged.m */,
 			);
 			path = MultiProjectSettingLearn;
 			sourceTree = "<group>";
@@ -240,7 +245,6 @@
 				FFE7DF74520C5E0EECBFFA7C /* Pods-MultiProjectSettingLearnTests.debug.xcconfig */,
 				5335608CF7B4914B07CF2547 /* Pods-MultiProjectSettingLearnTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -540,6 +544,7 @@
 				23B84F5123C7296400EA8FB4 /* ViewController.m in Sources */,
 				23B84F4B23C7296400EA8FB4 /* AppDelegate.m in Sources */,
 				23B84F5C23C7296600EA8FB4 /* main.m in Sources */,
+				23564E7023CC3ABB007C2B76 /* AmIBeingDebugged.m in Sources */,
 				23B84F4E23C7296400EA8FB4 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

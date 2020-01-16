@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "AmIBeingDebugged.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [self redirectNSLogToDocumentFolder];
+    if (![AmIBeingDebugged isBeingDebugged]) {
+        
+        [self redirectNSLogToDocumentFolder];
+    }
     return YES;
 }
 
